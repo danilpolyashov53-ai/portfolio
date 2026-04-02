@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Даниил Поляшов — Портфолио</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #1e293b, #020617);
+        }
+
+        header h1 {
+            font-size: 42px;
+        }
+
+        header p {
+            color: #94a3b8;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .project {
+            background: #1e293b;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 35px;
+            transition: 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        .role {
+            color: #94a3b8;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .section-title {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #f1f5f9;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Даниил Поляшов</h1>
+    <p>Портфолио реализованных проектов</p>
+</header>
+
+<div class="container">
+
+    <!-- МАРС -->
+    <div class="project">
+        <h2>Освоение Красной планеты</h2>
+        <div class="role">Роль: ведущий проектировщик и исследователь</div>
+
+        <p>
+            Комплексный научно-инженерный проект, посвящённый планированию миссии по колонизации Марса.
+            В рамках работы проведён анализ условий планеты, рассчитаны траектории перелёта и разработана
+            детализированная 3D-модель автономной базы в среде Blender.
+        </p>
+
+        <div class="section-title">Задачи:</div>
+        <ul>
+            <li>Анализ атмосферы, температуры и ресурсов Марса</li>
+            <li>Расчёт оптимальной траектории перелёта</li>
+            <li>Формирование состава экипажа</li>
+            <li>Проектирование жилых и научных модулей</li>
+            <li>Разработка систем жизнеобеспечения</li>
+        </ul>
+
+        <div class="section-title">Результаты:</div>
+        <ul>
+            <li>Определена оптимальная траектория миссии</li>
+            <li>Создана защищённая модель базы</li>
+            <li>Решены вопросы добычи воды и кислорода</li>
+            <li>Разработана визуализация колонии</li>
+        </ul>
+    </div>
+
+    <!-- SOFI -->
+    <div class="project">
+        <h2>Бизнес-план SoFi</h2>
+        <div class="role">Роль: генеральный директор</div>
+
+        <p>
+            Комплексный бизнес-проект по запуску цифрового AI-ассистента SoFi.
+            Разработана стратегия выхода на рынок, финансовая модель и система монетизации продукта.
+        </p>
+
+        <div class="section-title">Задачи:</div>
+        <ul>
+            <li>Анализ рынка и конкурентов</li>
+            <li>Разработка тарифной сетки</li>
+            <li>Формирование бюджета проекта</li>
+            <li>Расчёт NPV, IRR и окупаемости</li>
+            <li>Планирование масштабирования</li>
+        </ul>
+
+        <div class="section-title">Результаты:</div>
+        <ul>
+            <li>NPV: более 111,8 млрд ₽</li>
+            <li>IRR: 89,4%</li>
+            <li>Окупаемость — до 3 лет</li>
+            <li>Подписочная модель бизнеса</li>
+            <li>Продуманная логика AI-ассистента</li>
+        </ul>
+    </div>
+
+    <!-- AI_901 -->
+    <div class="project">
+        <h2>Telegram-бот AI_901</h2>
+        <div class="role">Роль: backend-разработчик</div>
+
+        <p>
+            Высоконагруженный AI-сервис в Telegram с поддержкой генерации текста,
+            изображений и анализа файлов с использованием современных нейросетей.
+        </p>
+
+        <div class="section-title">Задачи:</div>
+        <ul>
+            <li>Разработка интерфейса общения с AI</li>
+            <li>Реализация анализа изображений</li>
+            <li>Интеграция генерации изображений</li>
+            <li>Создание системы подписок</li>
+            <li>Развёртывание на сервере</li>
+        </ul>
+
+        <div class="section-title">Результаты:</div>
+        <ul>
+            <li>Работающий 24/7 бот</li>
+            <li>Использование GPT и AI API</li>
+            <li>Масштабируемая архитектура</li>
+            <li>Автоматическая обработка запросов</li>
+        </ul>
+    </div>
+
+    <!-- FABSHOP -->
+    <div class="project">
+        <h2>Telegram-бот FABShop</h2>
+        <div class="role">Роль: backend-разработчик</div>
+
+        <p>
+            Telegram-платформа для онлайн-продаж одежды с каталогом товаров,
+            корзиной и автоматизированной системой заказов.
+        </p>
+
+        <div class="section-title">Задачи:</div>
+        <ul>
+            <li>Создание структуры каталога</li>
+            <li>Разработка оформления заказа</li>
+            <li>Интеграция геолокации</li>
+            <li>Автоматизация заявок</li>
+            <li>Настройка сервера</li>
+        </ul>
+
+        <div class="section-title">Результаты:</div>
+        <ul>
+            <li>Ускорение обработки заказов</li>
+            <li>Удобный пользовательский интерфейс</li>
+            <li>Работа 24/7</li>
+            <li>Гибкая система масштабирования</li>
+        </ul>
+    </div>
+
+    <!-- ARENA -->
+    <div class="project">
+        <h2>Telegram-бот Arena of Ideas</h2>
+        <div class="role">Роль: product-менеджер, backend-разработчик</div>
+
+        <p>
+            Инструмент для оценки стартап-идей с использованием коллективного интеллекта
+            и системы взвешенного голосования.
+        </p>
+
+        <div class="section-title">Задачи:</div>
+        <ul>
+            <li>Разработка концепции крауд-оценки</li>
+            <li>Проектирование архитектуры бота</li>
+            <li>Создание системы мотивации</li>
+            <li>Тестирование гипотез</li>
+        </ul>
+
+        <div class="section-title">Результаты:</div>
+        <ul>
+            <li>Создан работающий прототип</li>
+            <li>Ускорена проверка идей</li>
+            <li>Реализована система ролей</li>
+            <li>Подготовка к веб-приложению</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Даниил Поляшов
+</footer>
+
+</body>
+</html>
